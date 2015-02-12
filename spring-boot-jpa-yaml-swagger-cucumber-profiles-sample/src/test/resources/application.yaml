@@ -1,0 +1,17 @@
+---
+
+spring:
+    profiles: dev
+
+app:
+  base: http://localhost:8080
+
+---
+
+spring:
+    profiles: ci
+
+app:
+  base: http://ford-modile-api.eu-gb.mybluemix.net
+
+---

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "admin",
+    "authorities": [
+      {
+        "id": 1,
+        "name": "ROLE_ADMIN"
+      },
+      {
+        "id": 3,
+        "name": "ROLE_USER"
+      }
+    ],
+    "date_of_birth": "1983-07-11"
+  },
+  {
+    "id": 2,
+    "name": "guest",
+    "authorities": [
+      {
+        "id": 2,
+        "name": "ROLE_GUEST"
+      }
+    ],
+    "date_of_birth": "1969-10-12"
+  },
+  {
+    "id": 3,
+    "name": "user",
+    "authorities": [
+      {
+        "id": 3,
+        "name": "ROLE_USER"
+      }
+    ],
+    "date_of_birth": "1996-02-13"
+  }
+]

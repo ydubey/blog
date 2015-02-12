@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["id", "name", "date_of_birth", "authorities"],
+  "properties": {
+    "id": {"type": "integer"},
+    "name": {"type": "string"},
+    "date_of_birth": {
+      "type": "string",
+      "pattern": "^(19|20)\\d\\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$"
+    },
+    "authorities": {"$ref": "authorities.json"}
+  },
+  "additionalProperties": false
+}
